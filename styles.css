@@ -59,6 +59,7 @@ p {
     
     .card-body {
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         margin-top: 1rem;
@@ -118,6 +119,17 @@ p {
         margin-top: -5rem;
     }
     
+    .btn-secondary {
+        background-color: #26b24b;
+        border-radius: 0.5rem;
+        border: none;
+        padding: 0.5rem;
+        cursor: pointer;
+        min-width: 10rem;
+        min-height: 2rem;
+        margin-top: 1rem;
+    }
+    
     .btn-answer {
         border-radius: 0.5rem;
         padding: 0.5rem;
@@ -142,6 +154,10 @@ p {
     
     .endscore {
         font-size: 25px;
+    }
+    
+    .menutext {
+        margin-top: 1rem;
     }
     
     .footer {
@@ -215,6 +231,7 @@ p {
     
     .card-body {
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         margin-top: 1rem;
@@ -276,6 +293,17 @@ p {
         margin-top: -5rem;
     }
     
+    .btn-secondary {
+        background-color: #26b24b;
+        border-radius: 0.5rem;
+        border: none;
+        padding: 0.5rem;
+        cursor: pointer;
+        min-width: 10rem;
+        min-height: 2rem;
+        margin-top: 1rem;
+    }
+    
     .btn-answer {
         border-radius: 0.5rem;
         padding: 0.5rem;
@@ -300,6 +328,10 @@ p {
     
     .endscore {
         font-size: 25px;
+    }
+    
+    .menutext {
+        margin-top: 1rem;
     }
     
     .footer {
@@ -372,6 +404,7 @@ p {
     
     .card-body {
         display: flex;
+        flex-direction: column;
         align-items: center;
         justify-content: center;
         margin-top: 1rem;
@@ -425,6 +458,17 @@ p {
         margin-top: 3rem;
     }
     
+    .btn-secondary {
+        background-color: #26b24b;
+        border-radius: 0.5rem;
+        border: none;
+        padding: 0.5rem;
+        cursor: pointer;
+        min-width: 10rem;
+        min-height: 3rem;
+        margin-top: 3rem;
+    }
+    
     .btn-answer {
         border-radius: 0.5rem;
         padding: 0.5rem;
@@ -450,6 +494,11 @@ p {
     
     .endscore {
         font-size: 25px;
+    }
+    
+    .menutext {
+        margin-top: 1rem;
+        margin-bottom: -1.7rem;
     }
     
     .footer {

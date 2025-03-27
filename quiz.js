@@ -199,3 +199,17 @@ function showExplanation() {
 function hideExplanation() {
     document.getElementById('explanation').textContent = 'Hint';
 }
+
+function showMenu() {
+    document.getElementById('mainmenu').hidden = false;
+    document.getElementById('quiz-container').hidden = true;
+    document.getElementById('result').hidden = true;
+    document.getElementById('explanation').hidden = true;
+}
+
+function hideMenu() {
+    document.getElementById('mainmenu').hidden = true;
+    document.getElementById('quiz-container').hidden = false;
+    document.getElementById('result').hidden = true;
+    document.getElementById('explanation').hidden = false;
+}

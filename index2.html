@@ -10,9 +10,28 @@
 <body class="main-container">
     <div class="navbar">
         <a href="index.html"><img src="./assets/images/logo-192x192.png" class="logo"></a>
-        <a href="index2.html">QuizApp</a>
+        <a href="index.html">QuizApp</a>
     </div>
-    <div id="quiz-container" class="card">
+    <div id="mainmenu" class="card">
+        <div class="card-header">
+            <h1>Welcome to the CF QuizApp</h1>
+            <h3>Choose a Quiz below:</h3>
+        </div>
+        <div class="card-body">
+            <p class="menutext">Mixed programming questions</p>
+            <a href="index.html"><button class="btn-secondary">Start Mixed-Quiz</button></a>
+            <p class="menutext">Placeholder</p>
+            <button class="btn-secondary">Ribbit!</button>
+            <p class="menutext">Placeholder</p>
+            <button class="btn-secondary">Ribbit!</button>
+            <p class="menutext">Placeholder</p>
+            <button class="btn-secondary">Ribbit!</button>
+        </div>
+        <!--<div class="card-footer">
+        </div>-->
+    </div>
+
+    <div id="quiz-container" hidden="true" class="card">
         <div class="card-header">
             <div id="questionPicture" class="card-picture"></div>
             <h1 id="question" class="card-question"></h1>
@@ -40,7 +59,10 @@
             <button id="restart-button-final" class="btn btn-primary" onclick="restartQuizFinal()">Restart Quiz</button>
         </div>
     </div>
-    <button id="explanation" class="btn-hint" onclick="showExplanation()">Hint</button>
+    <button id="explanation" class="btn-hint" onclick="showExplanation()" hidden="true">Hint</button>
+
+    <button onclick="showMenu()">show_menu</button>
+    <button onclick="hideMenu()">hide_menu</button>
     <div class="footer">
         <img src="./assets/images/logo_black_transparent.png" width="200px"
     </div>
