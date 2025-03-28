@@ -149,6 +149,7 @@ p {
         cursor: pointer;
         min-width: 10rem;
         min-height: 3rem;
+        margin-top: 1rem;
         margin-bottom: 1rem;
         max-width: 70vw;
         box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);
@@ -325,6 +326,7 @@ p {
         cursor: pointer;
         min-width: 10rem;
         min-height: 3rem;
+        margin-top: 1rem;
         margin-bottom: 1rem;
         max-width: 70vw;
         box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.5);

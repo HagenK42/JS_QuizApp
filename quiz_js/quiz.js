@@ -202,12 +202,14 @@ function previousQuestion() {
 */
 function showExplanation() {
     document.getElementById('explanation').textContent = questions[currentQuestionIndex].explanation;
+    document.getElementById('hint-description').hidden = true;
     hintClicked = true;
     hintsUsed += 1;
 }
 
 function hideExplanation() {
     document.getElementById('explanation').textContent = 'Hint';
+    document.getElementById('hint-description').hidden = false;
 }
 
 function showMenu() {
