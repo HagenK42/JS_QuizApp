@@ -92,7 +92,6 @@ p {
         border-bottom-right-radius: 0;
         border-bottom-left-radius: 0;
         margin-bottom: -1rem;
-        overflow: hidden;
     }
     
     .card-question {
@@ -129,7 +128,6 @@ p {
         min-width: 10rem;
         min-height: 2rem;
         margin-top: 1rem;
-        margin-bottom: 1rem;
     }
     
     .btn-answer {
@@ -266,7 +264,6 @@ p {
         border-bottom-right-radius: 0;
         border-bottom-left-radius: 0;
         margin-bottom: -2rem;
-        overflow: hidden;
     }
     
     .card-question {
@@ -305,7 +302,6 @@ p {
         min-width: 10rem;
         min-height: 2rem;
         margin-top: 1rem;
-        margin-bottom: 1rem;
     }
     
     .btn-answer {
@@ -438,7 +434,6 @@ p {
         border-radius: 1rem;
         border-bottom-right-radius: 0;
         border-bottom-left-radius: 0;
-        overflow: hidden;
     }
     
     .card-question {
@@ -471,8 +466,7 @@ p {
         cursor: pointer;
         min-width: 10rem;
         min-height: 3rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+        margin-top: 3rem;
     }
     
     .btn-answer {
