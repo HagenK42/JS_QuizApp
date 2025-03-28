@@ -14,7 +14,7 @@ let questions = [
         ],
         correctAnswerIndex: 2,
         explanation: 'Correct Answer: Hyper Text Markup Language Explanation: HTML stands for Hyper Text Markup Language. It is a standard markup language used for creating and structuring the content on web pages. HTML uses tags to define elements such as headings, paragraphs, images, links, and more. These tags provide a structure and format to the content, allowing web browsers to interpret and display the information correctly. HTML is the foundation of web development and is essential for creating and designing websites.',
-        picture: "../assets/images/code-1076536_1280.jpg",
+        picture: "../assets/images/code-1076536_1280_ergebnis.webp",
     },
     {
         question: 'Does the following C++ script have errors? #include "stdafx.h" #include <iostream> using namespace std; int main() {          cout<<"Hello world"<<endl          return 0; }',
@@ -34,7 +34,7 @@ let questions = [
         ],
         correctAnswerIndex: 1,
         explanation: 'Correct Answer: False Explanation: In Java, a method is not a container that holds classes. A method is a block of code that performs a specific task and is defined within a class. It is used to encapsulate a set of instructions that can be called and executed when needed. Classes, on the other hand, are used to define objects and their properties and behaviors. Therefore, the statement that a method is a container that holds classes is incorrect.',
-        picture: "../assets/images/javacode.jpg",
+        picture: "../assets/images/javacode_ergebnis.webp",
     },
     {
         question: '<h1>Text</h1> is the correct way of making a header in HTML.',
@@ -44,7 +44,7 @@ let questions = [
         ],
         correctAnswerIndex: 0,
         explanation: 'Correct Answer: True Explanation: In HTML, the tag is used to create a header, and it is the correct way to make a header in HTML. The tag represents the highest level of heading and is typically used for main headings on a webpage. It is important to use the appropriate HTML tags to structure and format the content correctly, and in this case, using the tag for a header is the correct approach.',
-        picture: "../assets/images/code-1076536_1280.jpg",
+        picture: "../assets/images/code-1076536_1280_ergebnis.webp",
     },
     {
         question: 'Which of the following is the correct way of making a string in Java?',
@@ -56,7 +56,7 @@ let questions = [
         ],
         correctAnswerIndex: 3,
         explanation: 'Correct Answer: String text = "text"; Explanation: The correct way of making a string in Java is by using double quotation marks. Therefore, the correct answer is "String text = "text";".',
-        picture: "../assets/images/javacode.jpg",
+        picture: "../assets/images/javacode_ergebnis.webp",
     },
     {
         question: 'Which of the following is the correct way to use the standard namespace in C++?',
@@ -78,7 +78,7 @@ let questions = [
         ],
         correctAnswerIndex: 1,
         explanation: 'Correct Answer: No Explanation: The HTML code is not correct because the and elements should be placed inside the element, not directly inside the element.',
-        picture: "../assets/images/code-1076536_1280.jpg",
+        picture: "../assets/images/code-1076536_1280_ergebnis.webp",
     },
     {
         question: 'Is it less bytes to use:       long l = 100; then:       int i = 10;',
@@ -88,7 +88,7 @@ let questions = [
         ],
         correctAnswerIndex: 1,
         explanation: 'Correct Answer: No Explanation: The given answer "No" is correct because both variables, long and int, occupy the same amount of memory in Java. The difference lies in the range of values they can hold. A long variable can store larger values than an int variable, but it does not necessarily use more memory. In this case, both variables are assigned small values, so they would occupy the same number of bytes.',
-        picture: "../assets/images/javacode.jpg",
+        picture: "../assets/images/javacode_ergebnis.webp",
     },
     {
         question: 'Is this the correct way to make an object in Java? Class class = new Class();',
@@ -98,7 +98,7 @@ let questions = [
         ],
         correctAnswerIndex: 1,
         explanation: 'Correct Answer: False Explanation: In Java, "Class" is a reserved keyword used for reflection to obtain metadata about classes at runtime. Therefore, naming a variable "class" may lead to confusion. A correct way to instantiate an object of a class named "Class" would be: Class className = new Class();',
-        picture: "../assets/images/javacode.jpg",
+        picture: "../assets/images/javacode_ergebnis.webp",
     },
     {
         question: 'Is this how you import something in C++? #include <string>',

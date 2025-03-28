@@ -92,7 +92,6 @@ p {
         border-bottom-right-radius: 0;
         border-bottom-left-radius: 0;
         margin-bottom: -1rem;
-        overflow: hidden;
     }
     
     .card-question {
@@ -124,12 +123,11 @@ p {
         background-color: #26b24b;
         border-radius: 0.5rem;
         border: none;
-        padding: 1rem;
+        padding: 0.5rem;
         cursor: pointer;
         min-width: 10rem;
         min-height: 2rem;
         margin-top: 1rem;
-        margin-bottom: 1rem;
     }
     
     .btn-answer {
@@ -175,7 +173,7 @@ p {
     }
 }
 
-/* -------------------- TABLET -------------------- */
+/* -------------------- SMARTPHONE LANDSCAPE -------------------- */
 
 @media screen and (orientation: landscape) {
     a {
@@ -266,7 +264,6 @@ p {
         border-bottom-right-radius: 0;
         border-bottom-left-radius: 0;
         margin-bottom: -2rem;
-        overflow: hidden;
     }
     
     .card-question {
@@ -300,12 +297,11 @@ p {
         background-color: #26b24b;
         border-radius: 0.5rem;
         border: none;
-        padding: 1rem;
+        padding: 0.5rem;
         cursor: pointer;
         min-width: 10rem;
         min-height: 2rem;
         margin-top: 1rem;
-        margin-bottom: 1rem;
     }
     
     .btn-answer {
@@ -438,7 +434,6 @@ p {
         border-radius: 1rem;
         border-bottom-right-radius: 0;
         border-bottom-left-radius: 0;
-        overflow: hidden;
     }
     
     .card-question {
@@ -471,8 +466,7 @@ p {
         cursor: pointer;
         min-width: 10rem;
         min-height: 3rem;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
+        margin-top: 3rem;
     }
     
     .btn-answer {
