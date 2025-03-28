@@ -172,7 +172,6 @@ function restartQuiz() {
 };
 
 function restartQuizFinal() {
-    console.log('restartQuizFinal');
     score = 0;
     currentQuestionIndex = 0;
     hintClicked = false;
@@ -201,6 +200,10 @@ function hideExplanation() {
 }
 
 function showMenu() {
+    score = 0;
+    currentQuestionIndex = 0;
+    hintClicked = false;
+    hintsUsed = 0;
     document.getElementById('mainmenu').hidden = false;
     document.getElementById('quiz-container').hidden = true;
     document.getElementById('result').hidden = true;
@@ -212,4 +215,17 @@ function hideMenu() {
     document.getElementById('quiz-container').hidden = false;
     document.getElementById('result').hidden = true;
     document.getElementById('explanation').hidden = false;
+    displayQuestion();
+}
+
+function startQuiz() {
+    score = 0;
+    currentQuestionIndex = 0;
+    hintClicked = false;
+    hintsUsed = 0;
+    document.getElementById('mainmenu').hidden = true;
+    document.getElementById('quiz-container').hidden = false;
+    document.getElementById('result').hidden = true;
+    document.getElementById('explanation').hidden = false;
+    displayQuestion();
 }
