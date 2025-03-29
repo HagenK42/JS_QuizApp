@@ -134,12 +134,14 @@ function displayQuestion() {
         document.getElementById('result').hidden = false;
         document.getElementById('score-final').textContent = (score -= hintsUsed) + '/' + questionsCount;
         document.getElementById('explanation').hidden = true;
+        document.getElementById('hint-description').hidden = true;
         return;
     };
 
     let question = questions[currentQuestionIndex];
 
     document.getElementById('score-live').textContent = score;
+    document.getElementById('question-live').textContent = currentQuestionIndex + '/' + questionsCount;
 
     document.getElementById('questionPicture').style.backgroundImage = `url(${question.picture})`;
     document.getElementById('questionPicture').style.backgroundSize = 'cover';
